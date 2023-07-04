@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+  apache-1c:
+    build: .
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+    extra_hosts:
+      - "1CSERVER:172.16.0.7"
