@@ -1,3 +1,6 @@
+# Запуск Apache 2.4 с модулем 1С внутри Docker контейнера
+1. Установите Docker (https://docs.docker.com/install/) и docker-compose (https://docs.docker.com/compose/install/)
+
 2. При установке Docker на Linux не забудьте про ещё один важный шаг: https://docs.docker.com/install/linux/linux-postinstall/
 
 3. Скачайте дистрибутив 1С сервера для Linux в текущую директорию: https://releases.1c.ru -> Технологическая платформа 8.3 -> Cервер 1С:Предприятия (64-bit) для DEB-based Linux-систем - должен получиться файл `deb64.tar.gz`
